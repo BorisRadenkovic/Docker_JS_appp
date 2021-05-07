@@ -11,7 +11,7 @@ pipeline {
         }
         stage('GetDockerCompose') {
             steps {
-                sh "sudo cp /var/lib/jenkins/workspace/Docker_app/docker-compose.yaml /home/boris2"
+                sh "sudo cp /home/boris2/boris2_jenkins_home/workspace/Docker_app/docker-compose.yaml /home/boris2"
 
             }
         }
