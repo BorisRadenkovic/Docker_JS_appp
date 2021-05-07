@@ -21,11 +21,11 @@ pipeline {
                 sh "sudo scp /home/boris2/docker-compose.yaml boris3@10.113.80.1092:/home/boris3/dockerApp"
             }
         }
-        stage('') {
-             steps {
-                sh "sudo scp /home/boris2/docker-compose.yaml boris3@10.113.80.1092:/home/boris3/dockerApp"
-             }
-        }
+       // stage('') {
+            // steps {
+            //    sh "sudo scp /home/boris2/docker-compose.yaml boris3@10.113.80.1092:/home/boris3/dockerApp"
+           //  }
+      //  }
 
 
 
